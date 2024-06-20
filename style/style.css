@@ -1,0 +1,252 @@
+        body {
+            background-size: cover;
+            width: 1290px;
+            background-image: url('ADMIN - 2.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            }
+        div.transbox {
+            margin-top: 90px;
+            margin-bottom: 10px;
+            margin-left: 430px;
+            margin-right: 410px;
+            background-color: transparent;
+            border: 1px solid white;
+            border-radius: 6px;
+        }
+        .custom-select{
+            font-family: Arial;
+            margin-top: 15px;
+            margin-left: 50px;
+            padding-top: 14px;
+            padding-bottom: 14px;
+            padding-left: 10px;
+            padding-right: 225px;
+            border-radius: 4px;
+            border: 1px solid transparent;
+            margin-bottom: 20px;
+            margin-right: 0px;
+            }
+        .custom-select:hover{
+            cursor: pointer;
+            border: 1px solid black;
+        }
+        .form-controler{
+            font-family: Arial;
+            padding-top: 14px;
+            padding-bottom: 14px;
+            padding-left: 10px;
+            padding-right: 169px;
+            border-radius: 4px;
+            margin-top: 1px;
+            margin-left: 50px;
+            border: 1px solid transparent;
+            margin-bottom: 20px;
+        }
+        .form-controler:hover{
+            border: 1px solid black;
+        }
+        .form-controler-pass{
+            font-family: Arial;
+            padding-top: 14px;
+            padding-bottom: 14px;
+            padding-left: 10px;
+            width: 335px;
+            border-radius: 4px;
+            margin-top: 1px;
+            margin-bottom: 20;
+            margin-left: 50px;
+            border: 1px solid transparent;
+        }
+        .form-controler-pass:hover{
+            border: 1px solid black;
+        }
+        .button-login{
+            font-family: Arial;   
+            padding-top: 14px;
+            padding-bottom: 14px;
+            padding-left: 10px;
+            width: 350px;
+            border-radius: 1.6px;
+            margin-top: 25px;
+            margin-left: 50px;
+            border: none;
+            background-color: rgb(238, 125, 24);
+            color: white;
+            font-weight: bold;
+            margin-bottom: 30px
+            }
+        .button-login:hover{
+            opacity: 0.9;
+        }
+        .college-img{
+            text-align: center;
+            width: 300px;
+            height: 80px;
+            margin-top: 40px;
+            margin-bottom: 0px;
+            margin-left: 75px;
+        }
+        .button-forgot{
+            font-family: Arial;
+            text-align: center;
+            color: white;
+            cursor: pointer;
+            font-size: 13.5px;
+            margin-top: 25px;
+            margin-bottom: 60px;
+        }
+        .copy-right{
+            font-family: Arial;
+            text-align: center;
+            color: white;
+            font-size: 13.5px;
+            margin-top: 160px;
+            margin-bottom: 30px;
+        }
+        .image-below{
+            font-family: Arial;
+            text-align: center;
+            color: white;
+            font-size: 14px;
+            line-height: 24px;
+        }
+        .para-reg{
+            color: white;
+            font-size: 13px;
+            font-family: Arial;
+            font-weight: bold;
+            margin-left: 56px;
+        }
+        .para-pass{
+            color: white;
+            font-size: 13px;
+            font-family: Arial;
+            font-weight: bold;
+            margin-left: 56px;
+        }
+
+        @media screen and (max-width: 600px)
+        {
+            body{
+                margin-right: 30px;
+                background-size: cover;
+                width: 600px;
+                background-image: url('ADMIN - 2.jpg');
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+            }
+            div.transbox {
+                margin-top:150px;
+                margin-bottom: 10px;
+                margin-left: 20px;
+                margin-right: 20px;
+                background-color: transparent;
+                border: 1px solid white;
+                border-radius: 8px;
+                border: bold;
+            }
+            .college-img{
+            text-align: center;
+            width: 400px;
+            height: 100px;
+            margin-top: 60px;
+            margin-bottom: 0px;
+            margin-left: 75px;
+            }
+            .image-below{
+            margin-top: 45px;
+            text-align: center;
+            color: white;
+            font-size: 22px;
+            line-height: 32px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            }
+            .custom-select{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin-top: 4px;
+            margin-left: 50px;
+            padding-top: 22px;
+            padding-bottom: 22px;
+            padding-left: 20px;
+            padding-right: 260px;
+            border-radius: 8px;
+            border: 1px solid transparent;
+            margin-bottom: 15px;
+            margin-right: 0px;
+            font-size: 23px;
+        }
+        .para-reg{
+            color: white;
+            font-size: 22px;
+            font-weight: bold;
+            margin-left: 56px;
+        }
+        .form-controler{
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding-top: 22px;
+            padding-bottom: 22px;
+            padding-left: 20px;
+            padding-right: 160px;
+            border-radius: 8px;
+            margin-top: 1px;
+            margin-left: 50px;
+            border: 1px solid transparent;
+            margin-bottom: 15px;
+            font-size: 23px;
+            margin-right: 10xp;
+        }
+        .para-pass{
+            color: white;
+            font-size: 22px;
+            font-weight: bold;
+            margin-left: 56px;
+        }
+        .form-controler-pass{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding-top: 22px;
+            padding-bottom: 22px;
+            padding-left: 10px;
+            width: 442px;
+            border-radius: 8px;
+            margin-top: 1px;
+            margin-bottom: 20;
+            margin-left: 50px;
+            border: 1px solid transparent;
+            font-size: 23px;
+        }
+        .button-login{
+            font-family: Arial;
+            padding-top: 13px;
+            padding-bottom: 13px;
+            padding-left: 10px;
+            font-size: 23px;
+            width: 455px;
+            border-radius: 1.6px;
+            margin-top: 40px;
+            margin-left: 50px;
+            border: none;
+            background-color: rgb(238, 125, 24);
+            color: white;
+            font-weight: bold;
+            margin-bottom: 50px  
+        }
+        .button-forgot{
+            font-family: Arial;
+            text-align: center;
+            color: white;
+            cursor: pointer;
+            font-size: 22px;
+            margin-top: 30px;
+            margin-bottom: 80px;
+        }
+        .copy-right{
+            font-family: Arial;
+            text-align: center;
+            color: white;
+            font-size: 21px;
+            margin-top: 160px;
+            margin-bottom: 30px;
+        }
+    }
