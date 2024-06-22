@@ -1,0 +1,7 @@
+const sheets = SpreadsheetApp.openByUrl("https://docs.google.com/spreadsheets/d/1dvjlXAizQ9Qg5zAkwD6hziXvaVqFgnTzmhLNMU9pr6U/edit?gid=0#gid=0");
+const sheet = sheets.getSheetByName("Sheet1");
+function doPost(e){
+  let data = e.parameter;
+  sheet.appendRow([data.register,data.password]);
+  return ContentService.createTextOutput("Success");
+}
