@@ -125,6 +125,12 @@
             font-weight: bold;
             margin-left: 56px;
         }
+        .link-edit{
+            color: white;
+            font-size: 15px;
+            text-decoration: none;
+        }
+
 
         @media screen and (max-width: 600px)
         {
